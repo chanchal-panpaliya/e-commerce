@@ -1,0 +1,84 @@
+@import '../index.css';
+
+/*login-container*/
+.account-page{
+    padding: 12.5rem 0;
+}
+
+/*form-container*/
+.form-container{
+   background: var(--white);
+   width: 18.75rem;
+   height: auto;
+   position: relative; 
+   text-align: center;
+   padding: 1.25rem 1.25rem;
+   margin: auto;
+   box-shadow: 0 0 1.25rem 0px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   max-width: 18.75rem;
+}
+
+/*form-container - text span*/
+.form-container span{
+    padding: 0 10px;
+    color: var(--text-color);
+    cursor: pointer;
+    display: inline-block;
+}
+
+/*heading underline*/
+.indicator{
+    width: 6.25rem;
+    border: none;
+    background: var(--primary-color);
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(80px);
+    transition: transform 1s;
+}
+
+/*login-button margin set*/
+.login-button{
+    margin-top: 2.5rem;
+}
+
+
+/*-----------------Registration Page------------*/
+/*---------------------------------------------*/
+
+/*register container*/
+.register_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--white);
+    font-size: 10px;
+  
+}
+
+/*register form container*/
+.form-register-container{
+    background: var(--white);
+    width: 50rem;
+    position: relative; 
+    text-align: center;
+    padding: 1.25rem 1.25rem;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0 0 1.25rem 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+/*media query for less then screen size*/
+@media only screen and (max-width:600px){   
+ .register_container{
+     flex-direction: column;
+     row-gap: 2rem;
+ }   
+}
