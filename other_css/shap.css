@@ -1,0 +1,101 @@
+.shape{    
+	border-style: solid; border-width: 0 115px 87px 0;  height: 0px; width: 0px; position: absolute ; top:0 ; right:0;
+	/* transform:rotate(360deg); */
+    border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+
+.shape-text{
+	color:#fff; font-size:16px; font-weight:bold; position:relative; white-space: nowrap; top:10 ; right:-70;
+	/* transform:rotate(30deg); */
+}
+/*x ------------------;*/
+.top-shape{ 
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-width: 0rem 3.75rem 6.25rem 0px;
+    right: 0;
+	transform:rotate(360deg);
+    border-color: rgba(255,255,255,0) var(--primary-color) rgba(255,255,255,0) rgba(255,255,255,0);
+ }
+ .top-shape-text{ 	
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    position: relative;
+    right:-2.5rem; 
+    top:2px;
+    white-space: nowrap; }
+
+/*------------------*/
+
+.bottom-shape-card-home {
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-width: 1rem 3em 1em 0px;
+    left: 0;
+    top: 0;
+    transform: rotate(356deg);
+    border-color: rgba(255,255,255,0) var(--black) rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+.top-shape-card-home {
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-width: 0rem 1.75rem 3.25rem 3px;
+    left: 0;
+    top: 0;
+    transform: rotate(360deg);
+    border-color: rgb(56 56 56 / 0%) var(--primary-color) rgb(19 18 18 / 0%) rgb(52 48 48 / 0%);
+}
+
+/*---------product--------*/
+
+.shape-product{    
+	border-style: solid; border-width: 0 4.375rem 2.5rem 0;  height: 0px; width: 0px; position: absolute; right: 0; top: 0;
+    border-color: rgba(255,255,255,0) var(--danger) rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+
+.shape-text-product{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-2.5rem; top:2px; white-space: nowrap; top: 0;
+}
+
+
+/*--------*/
+/* .shape-product1{    
+	border-style: solid; border-width: 0 4.375rem 2.5rem 0;  height: 0px; width: 0px; position: absolute; right: 0; top: 0;
+    border-color: rgba(255,255,255,0) var(--danger) rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+
+*/
+
+.shape-text-product1{
+	color:#fff; font-size:12px; font-weight:bold;  right:-2.5rem; top:2px; white-space: nowrap; top: 0;
+} 
+
+.shape-product1 {
+	background: var(--primary-color);
+	width: 30px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+
+  }
+
+ .shape-product1:before {
+	transform: rotate(30deg);
+  }
+ .shape-product1:after {
+	transform: rotate(60deg);
+  }
+

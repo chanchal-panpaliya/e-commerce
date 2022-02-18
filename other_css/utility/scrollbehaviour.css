@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+    width: 1px;
+    color: black;
+  }
+  
+  /* ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var( --icon-primary-color);
+    border-radius: 30px;
+  } */
+  
+  ::-webkit-scrollbar-thumb {
+    background: var( --primary-color);
+    /* border-radius: 10px; */
+  }
+  
+  ::-webkit-scrollbar:horizontal{
+    height: 1px;
+    color: var(--secondary-text-color);
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: var( --secondary-text-color);
+    border-radius: 2px;
+  }
