@@ -1,0 +1,60 @@
+@import '../index.css';
+
+
+.button-shopping-card{
+    width: fit-content;
+    height: auto;
+}
+
+.shopping-card{
+    width: 25rem;
+    position: relative;
+}
+
+.shop-card-img{
+    width: 8.125rem;
+}
+
+
+.shopingcard-cancel-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--quaternary-color);
+}
+
+.cart-page{
+    margin: 5rem auto;
+}
+
+.price-card{
+    width: 18.75rem;
+}
+
+.row-content-space{
+ justify-content: space-between;
+}
+
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qut-input{
+    width: 2.5rem;
+    height: 1.25rem;
+}
+
+
+@media only screen and (max-width:600px){
+    .cart-info p{
+        font-size: 9px;
+        font-weight: 700;
+    }
+
+    .shopping-card{
+        width:fit-content;
+    }
+
+}
