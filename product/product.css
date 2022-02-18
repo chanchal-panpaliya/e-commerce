@@ -1,0 +1,133 @@
+@import '../index.css';
+
+/*add top margin to small container*/
+.small-container-m{
+   margin-top: 6.25rem;
+}
+
+/*space in between the fiter menubar row*/
+.row-2{
+    justify-content: space-between;
+    margin: 6.25rem auto 3.125rem;
+}
+
+
+/*-----select---*/
+select{
+    border:1px solid var(--primary-color)
+}
+
+select:focus{
+    outline: none;
+}
+
+/*-----menu---filter---*/
+.menu-filter{
+    width: 1.75rem;
+    margin-left: 1.25rem;
+}
+
+.menu-filter:hover{
+  cursor: pointer;
+}
+
+/*------button for bottom nav pages-----*/
+.page-btn{
+    margin: 0 auto 5rem;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid var(--quaternary-color);
+    margin-left: 10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/*------col-6----*/
+.col-6{
+    width: 10rem;
+    position: relative;
+}
+
+.col-6 img{
+ width: 100%;
+ cursor: pointer;
+}
+
+/*------horizental card----*/
+.card-horizental{
+    width: 18.75rem;
+    padding: 1rem;
+}
+
+.horizental-card-content{
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+
+/*------filter-sidebar-----*/
+
+.filter{
+    display: block;
+    height: -webkit-fill-available;
+    box-shadow: 0 0 1.25rem 0px rgb(0 0 0 / 10%);
+    width: 13.75rem;
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--white);
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.filter-container{
+    overflow: scroll;
+    overflow-y: scroll;
+    height: 85%;
+    padding: 1rem 1rem 1rem 1rem;
+   
+}
+
+.sub-filter-content{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.filter-row{
+    margin-top: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.menu-filter ,.filterclose{
+  display: none;
+}
+
+@media only screen and (max-width:800px){
+    .filter{
+        display: block;
+     }
+}
+
+@media only screen and (max-width:600px){
+    .filter{
+       display: none;
+    }
+
+    .menu-filter , .filterclose{
+        display: block;
+      }
+
+      .filterclose{
+        text-align: right
+      }
+}

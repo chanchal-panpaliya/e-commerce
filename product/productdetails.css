@@ -1,0 +1,72 @@
+@import '../index.css';
+
+
+.single-product{
+    margin-top: 5rem;
+}
+
+.single-product .col-2 img{
+  padding: 0;
+}
+
+.single-product .col-2{
+    padding: 1.25rem;
+}
+
+.single-product h4{
+    margin: 1.25rem 0;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 1.25rem;
+}
+
+.single-product input{
+    width: 3.125rem;
+    height: 2.5rem;
+    padding-left: 10px;
+    font-size: 1.25rem;
+    margin-right:10px;
+    border: 1px solid var(--primary-color);
+}
+
+input:focus{
+    outline: none;
+}
+
+.single-product .fa{
+    color: var(--primary-color);
+    margin-left: 10px;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.img-single-product ,.img-small-single-product{
+    width: 100%;
+}
+
+@media only screen and (max-width:600px){
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 1.25rem 0;
+    }
+    .single-product h1{
+        font-size: 1.625rem;
+        line-height: 2rem;
+    }
+}
+
